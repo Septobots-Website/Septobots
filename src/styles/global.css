@@ -1,0 +1,179 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Libre+Baskerville:wght@700&family=Alfa+Slab+One&family=Palanquin+Dark:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(-135deg, #311e11, #7d4e2d);
+    color: white;
+}
+/* navigation */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem 2rem;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: large;
+}
+  
+.image-clickable {
+    margin-right: auto;
+}
+.image-clickable img{
+    height: 60px;
+    margin-top: 8px;
+}
+
+  
+.nav-links {
+    list-style: none;
+}
+  
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+  
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: all 0.5s ease 0s;
+}
+
+.nav-links li a:visited{
+    text-decoration: none;
+    color:#026c20;
+}
+  
+.nav-links li a:hover {
+    color: rgba(0, 173, 181, 0.8);
+}
+  
+.navigation button {
+    background: #026c20;
+    cursor: pointer;
+    padding: 9px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-left: 20px;
+}
+  
+button:hover {
+    background: rgba(0, 173, 181, 0.8);
+}                                                                                                                                                       
+
+/*titile*/
+.mainInfoText{
+    text-align: center;
+    padding: 100px;
+    max-width: 1200px;
+    height: 500px;
+    margin: 150px auto;
+}
+.mainInfoText h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: auto;
+}
+.mainInfoText h4{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: auto;
+}
+
+/* parallax effect */
+.mainInfo{
+    background-image: url(../components/img/ladscape-gf.jpg);
+    background-color: rgba(0, 0, 0, 0.9);
+    
+    min-height: 800px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paws{
+    width: auto;
+    height: 50px;
+    background-size: contain;
+    background-image: url(../components/img/png-claw.png);
+    background-repeat: repeat-x;
+}
+
+/*main body*/
+    
+.mainPage > * {
+    margin-bottom: 10px;
+  }
+  
+/* Now let's apply grid for wider viewports. */
+@media screen and (min-width: 40em) {
+.mainPage > * {
+  margin-bottom: 0;
+}
+/* Define the grid */
+.mainPage {
+    background-image: url(../components/img/fields.jpg);
+    min-height: 800px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-gap: 10px 20px;
+    padding: 25px;
+    text-align: center;
+}
+.center {
+    grid-column: 2 / 3;
+}
+
+/* who we are section */
+.weAre{
+    height: 700px;
+    font-family: 'Special Elite', cursive;
+}
+.weAre h2{
+    margin: 50px;
+    font-size: 3rem;
+}
+.left h4, .right h4{
+    margin: 50px;
+}
+.left, .center, .right{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.weAre p{
+    margin: 50px 200px; 
+    font-size: 1.5rem;
+}
+
+/* contact us section */
+.subPage{
+    text-align: center;
+    height: 400px;
+}
+.contactUs{
+    display: flex;
+    margin: 40px;
+}
+
+
+
+}
