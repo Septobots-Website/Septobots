@@ -13,7 +13,7 @@ export default function Navbar() {
         </span>
     <nav>
         <ul class="nav-links">
-          <li><Link to="/">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/blog">Blog</Link></li>
             <li><Link to="/sponsors">Sponsors</Link></li>

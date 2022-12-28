@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 export default function mainPage() {
   return (
@@ -16,7 +17,7 @@ export default function mainPage() {
             These are valuable lessons that we can carry with us beyond our time in FRC and into our future careers and personal lives
             We are grateful for the chance to be a part of such a meaningful and enriching experience.</p>
           <br/>
-          <button type="button" className="learnMore"> Learn more about our team </button>
+          <Link to="https://team7777.com/about/"><button type="button" className="learnMore"> Learn more about our team </button></Link>
         </div>
       </div>
       <div className="sub-grid">
