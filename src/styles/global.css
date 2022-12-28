@@ -39,7 +39,7 @@ body{
     line-height: 1.4;
 }
 /* navigation */
-header, footer {
+header{
     color:#026c20;
     display: flex;
     justify-content: flex-end;
@@ -47,6 +47,21 @@ header, footer {
     margin: 0.5rem 2rem;
     font-family: 'Palanquin Dark', sans-serif;
     font-size: large;
+}
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+footer > p{
+    margin: 2rem;
+}
+@media (max-width: 28.75em) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 h1,
 h2{
@@ -147,31 +162,36 @@ img{
 
 /*main body*/
     
-.mainPage > * {
-    margin-bottom: 10px;
-  }
-  
-/* Now let's apply grid for wider viewports. */
-@media screen and (min-width: 40em) {
-.mainPage > * {
-  margin-bottom: 0;
-}
-/* Define the grid */
-.mainPage {
-    background-image: url(../components/img/fields.jpg);
-    min-height: 1000px;
+.mainPage{
+    text-align: center;
+    padding: 10rem 2rem;
 
+    background-image: url(../components/img/fields.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-gap: 10px 20px;
-    padding: 25px;
-    text-align: center;
 }
+  
+/* Define the grid */
+.main-grid {    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+@media (max-width: 30.625rem) {
+    .mainPage{
+        padding: 6rem 1rem;
+    }
+    .main-grid {
+        grid-template-columns: 1fr;
+    }
+}
+    
 .center {
     grid-column: 2 / 3;
 }
@@ -242,7 +262,7 @@ img{
   }
 
 
-}
+
 
 
 

@@ -2,14 +2,15 @@ import React from 'react'
 
 export default function mainPage() {
   return (
-    <div className="mainPage">
+    <section className="mainPage">
+      <div className="main-grid">
       <div className="left" >
         <h4>Current Events</h4>
         <p>Some text..</p>
       </div>
 
       <div className="center" >
-        <section className="weAre">
+        <div className="weAre">
           <h2>Come along and CHARGE FORWARD</h2>
           <p>We are FRC Team #7777, The Septobots, a non-profit community FIRST Robotics Competition team of high-school students from the Heart of The Salinas Valley</p>
           <br/>
@@ -22,13 +23,14 @@ export default function mainPage() {
             We are grateful for the chance to be a part of such a meaningful and enriching experience.</p>
           <br/>
           <button type="button"> Learn more about our team </button>
-        </section>
+        </div>
       </div>
 
       <div className="right" >
         <h4>Current Sponsors</h4>
         <p>Some text..</p>
       </div>
-    </div>
+      </div>
+    </section>
   )
 }
