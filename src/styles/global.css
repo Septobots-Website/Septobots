@@ -107,30 +107,21 @@ img{
                                                                                                                                                         
 
 /*titile*/
-.mainInfoText{
-    text-align: center;
-    padding: 100px;
-    max-width: 1200px;
-    height: 500px;
-    margin: 150px auto;
-}
 .mainInfo h1{
     font-family: 'Alfa Slab One', cursive;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-.mainInfoText h4{
+.mainInfo h4{
     font-family: 'Libre Baskerville', serif;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: auto;
 }
-
 /* parallax effect */
 .mainInfo{
     background-image: url(../components/img/ladscape-gf.jpg);
-    background-color: rgba(0, 0, 0, 0.9);
     
     min-height: 800px;
 
