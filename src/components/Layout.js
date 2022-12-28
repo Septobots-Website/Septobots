@@ -13,5 +13,6 @@ export default function Layout({ children}) {
             <p>2019-2022 Team 7777 * The Septobots Robotics Club</p>
         </footer>
     </div>
+    
   )
 }
