@@ -177,7 +177,7 @@ img{
 .main-grid {    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
+    grid-gap: 3rem;
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -191,17 +191,13 @@ img{
         grid-template-columns: 1fr;
     }
 }
-    
-.center {
-    grid-column: 2 / 3;
-}
 
 /* who we are section */
-.weAre{
-    height: 700px;
+.center {
+    grid-column: /3;
     font-family: 'Special Elite', cursive;
 }
-.weAre h2{
+.center h2{
     margin: 50px;
     font-size: 3rem;
 }
@@ -211,10 +207,13 @@ img{
 .left, .center, .right{
     background-color: rgba(0, 0, 0, 0.6);
 }
-.weAre p{
+.center p{
     padding: 30px;
     margin: 0 auto; 
     font-size: 1.5rem;
+}
+.center .learnMore{
+    margin-bottom: 4rem;
 }
 
 /* contact us section */

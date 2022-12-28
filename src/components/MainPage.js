@@ -4,13 +4,7 @@ export default function mainPage() {
   return (
     <section className="mainPage">
       <div className="main-grid">
-      <div className="left" >
-        <h4>Current Events</h4>
-        <p>Some text..</p>
-      </div>
-
-      <div className="center" >
-        <div className="weAre">
+        <div className="center" >
           <h2>Come along and CHARGE FORWARD</h2>
           <p>We are FRC Team #7777, The Septobots, a non-profit community FIRST Robotics Competition team of high-school students from the Heart of The Salinas Valley</p>
           <br/>
@@ -22,14 +16,18 @@ export default function mainPage() {
             These are valuable lessons that we can carry with us beyond our time in FRC and into our future careers and personal lives
             We are grateful for the chance to be a part of such a meaningful and enriching experience.</p>
           <br/>
-          <button type="button"> Learn more about our team </button>
+          <button type="button" className="learnMore"> Learn more about our team </button>
         </div>
       </div>
-
-      <div className="right" >
-        <h4>Current Sponsors</h4>
-        <p>Some text..</p>
-      </div>
+      <div className="sub-grid">
+        <div className="left" >
+          <h4>Current Events</h4>
+          <p>Some text..</p>
+        </div>
+        <div className="right" >
+          <h4>Current Sponsors</h4>
+          <p>Some text..</p>
+        </div>
       </div>
     </section>
   )
