@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import appleLogo from '../components/img/appleLogo.png'
 
 export default function mainPage() {
   return (
@@ -24,12 +25,13 @@ export default function mainPage() {
       </div>
       <div className="sub-grid">
         <div className="left" >
-          <h4>Current Events</h4>
-          <p>Some text..</p>
+          <h2>Current Events</h2>
+          <p>January - Build Season Begins</p>
         </div>
         <div className="right" >
-          <h4>Current Sponsors</h4>
-          <p>Some text..</p>
+          <h2>Current Sponsors</h2>
+          <img src={appleLogo} alt="Apple Logo" className="appleLogo" />
+          <p>Apple</p>
         </div>
       </div>
     </section>

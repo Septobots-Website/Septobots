@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
+import team from "../components/img/team.jpg"
 
 export default function about() {
   return (
@@ -15,7 +16,9 @@ export default function about() {
         </section>
 
         <section className="ourPurpose">
+        <div className="mission">
           <div className="missionPics">
+            <img src={team} alt="team" />
           </div>
           <div className="missionStatement">
             <h1>Our Mission</h1>
@@ -24,7 +27,10 @@ export default function about() {
               and technology skills, that inspire innovation, 
               and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
           </div>
+        </div>
+
           <div className="ourGoals">
+          <h1>Our Goals</h1>
           <p>Inspire members to further education and pursue careers in STEM fields 
           Help members understand what role engineering plays in improving the world and the progression of the human race
           Encourage members to pass on knowledge fostered on this team to family, friends, and members of the community to help better their lives

@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import ContactUs from '../components/ContactUs'
+import appleLogo from "../components/img/appleLogo.png"
 
 export default function sponsors() {
   return (
@@ -13,7 +14,8 @@ export default function sponsors() {
       </section>
       <section className="logos">
         <div className="logo">
-          </div>
+          <img src={appleLogo} alt="appleLogo" />
+        </div>
       </section>
       <ContactUs/>
     </Layout>

@@ -2,40 +2,43 @@ import React from 'react'
 
 export default function SubPage() {
   return (
-    <div className="subPage" id="contactUs">
-    <h1>Contact Us</h1>
-          
-          <div className="addy">
-            <p>Greenfield High School</p>
-            <p>205 S. El Camino Real</p>
-            <p>Greenfield, CA 93927</p>
-          </div>
+<div className="contain" id="contactUs">
 
-          <div className="mssg">
-            <form method="POST" action="https://getform.io/f/cdace237-195c-4846-b3c0-c93683c6f0f3">
-              <label>
-                Name:
-                <input type="text" name="name"/>
-              </label>
-              <label>
-                Phone Number:
-                <input type="text" name="number"/>
-              </label>
-              <br/>
-              <label>
-                Email:
-                <input type="email" name="email"/>
-              </label>
-              <br/>
-              <label>
-                Message:
-                <textarea className="message" name="message" rows="3" cols="10" placeholder="I like coding on the beach..."></textarea>
-              </label>
-              <br/>
-              <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
-          </div>
+<div className="wrapper">
+  <div className="contacts">
+    <h3>Find Us</h3>
 
-    </div>
+    <ul>
+      <li>Greenfield High School</li>
+      <li>205 S. El Camino Real</li>
+      <li>Greenfield, CA 93927</li>
+    </ul>
+  </div>
+
+  <div className="form">
+    <h3>Send us a message</h3>
+    <form method="POST" action="https://getform.io/f/cdace237-195c-4846-b3c0-c93683c6f0f3">
+      <p>
+        <input type="text" placeholder='First Name'/>
+      </p>
+      <p>
+        <input type="text" placeholder='Last Name'/>
+      </p>
+      <p>
+        <input type="text" placeholder='Phone Number'/>
+      </p>
+      <p>
+        <input type="text" placeholder='Email Address'/>
+      </p>
+      <p className='full-width'>
+        <textarea name="" id="" cols="30" rows="7" placeholder='Write Your Message'></textarea>
+      </p>
+      <p className='full-width'>
+        <button>Send</button>
+      </p>
+    </form>
+  </div>
+</div>
+</div>
   )
 }

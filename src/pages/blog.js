@@ -12,7 +12,30 @@ export default function blog() {
           i want to be able to copy and paste the template and have it automatically add a new row to the grid.
 
         */}
+    <section className="blogBody">
+    <div clasName="blog-grid">
+        <div className="blog-grid-item">
+            <img src={placeholder} alt="placeholder" />
+            <h1>Blog Title</h1>
+            <h1>Blog Date</h1>
+            <p>Blog Summary</p>
+        </div>
 
+        <div className="blog-grid-item">
+            <img src={placeholder} alt="placeholder" />
+            <h1>Blog Title</h1>
+            <h1>Blog Date</h1>
+            <p>Blog Summary</p>
+        </div>
+
+        <div className="blog-grid-item">
+            <img src={placeholder} alt="placeholder" />
+            <h1>Blog Title</h1>
+            <h1>Blog Date</h1>
+            <p>Blog Summary</p>
+        </div>
+    </div>
+    </section>
 
     </Layout>
   )

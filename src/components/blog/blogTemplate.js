@@ -18,7 +18,29 @@ export default function blogTemplate() {
 */
 
 <BlogLayout>
-    
+    <div className="blog">
+        <div className="blogHeader">
+            <h1>Author</h1>
+            <h1>Date</h1>
+        </div>
+        <div className="blogTitle">
+            <h1>Title</h1>
+        </div>
+        <div className="blogBody">
+            <p>Hook Paragraph</p>
+            <img src="https://picsum.photos/200/300" alt="hookImage" />
+            <p>Paragraph 1</p>
+            <p>Paragraph 2</p>
+            <p>Paragraph 3</p>
+            <img src="https://picsum.photos/200/300" alt="hookImage" />
+            <p>Conclusion Paragraph</p>
+            <img src="https://picsum.photos/200/300" alt="hookImage" />
+            
+        </div>
+        <div className="blogFooter">
+            <h1>Thank you to our sponsors</h1>
+        </div>
+    </div>
 </BlogLayout>
 
   )
