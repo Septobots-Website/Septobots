@@ -131,7 +131,7 @@ nav .fa{
     display: none;
 }
 
-@media(max-width: 700px){
+/* @media(max-width: 700px){
     .nav-links ul li{
         display: block;
     }
@@ -156,7 +156,7 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
-}
+} */
                                                                                                                                                         
 
 /*title*/
