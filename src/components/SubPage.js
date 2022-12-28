@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SubPage() {
   return (
-    <div className="subPage">
+    <div className="subPage" id="subPage">
     <h1>Contact Us</h1>
           
           <div className="addy">
