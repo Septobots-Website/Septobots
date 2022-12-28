@@ -10,9 +10,13 @@
 body{
     background-image: linear-gradient(-135deg, #311e11, #7d4e2d);
     color: white;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
 }
 /* navigation */
-header {
+header, footer {
+    color:#026c20;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -65,10 +69,7 @@ header {
     font-family: 'Palanquin Dark', sans-serif;
     margin-left: 20px;
 }
-  
-button:hover {
-    background: rgba(0, 173, 181, 0.8);
-}                                                                                                                                                       
+                                                                                                                                                        
 
 /*titile*/
 .mainInfoText{
@@ -127,7 +128,7 @@ button:hover {
 /* Define the grid */
 .mainPage {
     background-image: url(../components/img/fields.jpg);
-    min-height: 800px;
+    min-height: 1000px;
 
     background-attachment: fixed;
     background-position: center;
@@ -135,7 +136,7 @@ button:hover {
     background-size: cover;
     
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-gap: 10px 20px;
     padding: 25px;
     text-align: center;
@@ -154,26 +155,63 @@ button:hover {
     font-size: 3rem;
 }
 .left h4, .right h4{
-    margin: 50px;
+    margin-top: 50px;
 }
 .left, .center, .right{
     background-color: rgba(0, 0, 0, 0.6);
 }
 .weAre p{
-    margin: 50px 200px; 
+    padding: 30px;
+    margin: 0 auto; 
     font-size: 1.5rem;
 }
 
 /* contact us section */
 .subPage{
+    padding: 50px;
     text-align: center;
     height: 400px;
+    background-image: linear-gradient(-60deg, #047e26, #1a4526);
 }
-.contactUs{
-    display: flex;
-    margin: 40px;
+.addy, .mssg{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    font-size: large;
+}
+
+/* blog page css */
+.blogContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+  .blogPic {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+  }
+  .blogDate {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .blogTitle {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+  }
+  .blogSummary {
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+  }
+
+
 }
 
 
 
-}

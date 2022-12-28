@@ -10,7 +10,7 @@ export default function Layout({ children}) {
             {children}
         </div>
         <footer className="footer">
-            <p>2019-2022 First Robotics Competition Team 7777 * The Septobots Robotics Club</p>
+            <p>2019-2022 Team 7777 * The Septobots Robotics Club</p>
         </footer>
     </div>
   )
