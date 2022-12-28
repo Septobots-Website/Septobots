@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function SubPage() {
   return (
-    <div className="subPage" id="subPage">
+    <div className="subPage" id="contactUs">
     <h1>Contact Us</h1>
           
           <div className="addy">
@@ -12,7 +12,7 @@ export default function SubPage() {
           </div>
 
           <div className="mssg">
-            <form method="post" action="https://getform.io/{}">
+            <form method="POST" action="https://getform.io/f/cdace237-195c-4846-b3c0-c93683c6f0f3">
               <label>
                 Name:
                 <input type="text" name="name"/>
@@ -29,8 +29,10 @@ export default function SubPage() {
               <br/>
               <label>
                 Message:
-                <textarea className="message" name="message" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+                <textarea className="message" name="message" rows="3" cols="10" placeholder="I like coding on the beach..."></textarea>
               </label>
+              <br/>
+              <button type="submit" className="btn btn-primary">Submit</button>
             </form>
           </div>
 

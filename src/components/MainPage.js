@@ -6,7 +6,9 @@ export default function mainPage() {
     <section className="mainPage">
       <div className="main-grid">
         <div className="center" >
-          <h2>Come along and CHARGE FORWARD</h2>
+          <h2>Come along and CHARGE FORWARD
+            <br/>
+            With The Septobots</h2>
           <p>We are FRC Team #7777, The Septobots, a non-profit community FIRST Robotics Competition team of high-school students from the Heart of The Salinas Valley</p>
           <br/>
           <p>As students at Greenfield High School, we are committed to building a brighter future for ourselves and our community. 

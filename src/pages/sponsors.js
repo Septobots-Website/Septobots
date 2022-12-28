@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import SubPage from '../components/SubPage'
+import ContactUs from '../components/ContactUs'
 
 export default function sponsors() {
   return (
@@ -15,7 +15,7 @@ export default function sponsors() {
         <div className="logo">
           </div>
       </section>
-      <SubPage/>
+      <ContactUs/>
     </Layout>
   )
 }
