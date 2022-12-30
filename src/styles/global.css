@@ -235,6 +235,38 @@ nav .fa{
     margin-bottom: 4rem;
 }
 
+/* youtube video section */
+.youtubeSection{
+    text-align: center;
+    font-family: 'Special Elite', cursive;
+    background-image: linear-gradient(-135deg, #2b1a0f, #543620);
+}
+.youtubeSection h2{
+    font-size: 4rem;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.youtubeSection p{
+    font-size: 2rem;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+}
+.video iframe{
+    width: 85%;
+    height: 80%;
+    border: none;
+}
+
 /* contact us section */
 .contactSection{
     padding: 20px;
