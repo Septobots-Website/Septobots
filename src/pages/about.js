@@ -11,7 +11,8 @@ export default function about() {
             <p>The Septobots, FRC team 7777, seeks to innovate each year by approaching challenges in creative ways, 
               to iterate by consistently working to improve methods and strategies in all aspects of the team, 
               and to illustrate by having visible and measurable impact on our students as they are inspired by science and technology.
-              We welcome ALL students in grades 9-12 from Greenfield High School.</p>
+              </p>
+              <p>We welcome ALL students in grades 9-12 from Greenfield High School.</p>
           </div>
         </section>
 
