@@ -17,7 +17,7 @@ export default function SubPage() {
     <br/>
     <h3>Email Us</h3>
     <ul>
-      <li>ghsseptobots7777@gmail.com</li>
+      <li><Link to="mailto:ghsseptobots7777@gmail.com?subject=Septobots,%20Roll%20Out&body=Hey%20there%20Septobots,%20">ghsseptobots7777@gmail.com</Link></li>
     </ul>
   </div>
 
