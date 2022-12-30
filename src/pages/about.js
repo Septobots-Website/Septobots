@@ -7,7 +7,7 @@ export default function about() {
     <Layout>
         <section className="about">
           <div className="aboutMain">
-            <h1>About The Septobots</h1>
+            <h2>About The Septobots</h2>
             <p>The Septobots, FRC team 7777, seeks to innovate each year by approaching challenges in creative ways, 
               to iterate by consistently working to improve methods and strategies in all aspects of the team, 
               and to illustrate by having visible and measurable impact on our students as they are inspired by science and technology.

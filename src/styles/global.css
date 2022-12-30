@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Libre+Baskerville:wght@700&family=Alfa+Slab+One&family=Palanquin+Dark:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Tillana&family=Special+Elite&family=Libre+Baskerville:wght@700&family=Cabin+Sketch&family=Alfa+Slab+One&family=Palanquin+Dark:wght@700&display=swap");
 
 *{
     margin: 0;
@@ -14,7 +14,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     scroll-behavior: smooth;
-    background-image: linear-gradient(-135deg, #311e11, #7d4e2d);
+    background-image: linear-gradient(-135deg, #2b1a0f, #543620);
     /* color:#026c20; */
     font-family: 'Palanquin Dark', sans-serif;
 }
@@ -374,12 +374,46 @@ textarea {
 }
 /* the about us portion */
 .about{
-    background-image: linear-gradient(45deg, green, darkgreen);
-    text-align: center;
     margin: 0 auto;
-    width: 100%;
-    height: 40vh;
+    text-align: center;
+
+    background-image: url(../components/img/gazebo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.aboutMain{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.about{    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+@media (max-width: 30.625rem) {
+    .aboutMain{
+        padding: 1rem 1rem;
+    }
+    .aboutMain{
+        grid-template-columns: 1fr;
+    }
+}
+.aboutMain h2{
+    font-family: 'Cabin Sketch', cursive;
+    margin: 50px;
+    font-size: 5rem;
+}
+.aboutMain p{
+    font-family: 'Tillana', cursive;
+    padding: 0 50px 50px 50px;
+    margin: 0 auto; 
+    font-size: 2rem;
+}
+
 .ourPurpose{
     margin: 0 auto;
     width: 100%;
