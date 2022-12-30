@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function SubPage() {
   return (
+<section className="contactSection">
 <div className="contain" id="contactUs">
 
 <div className="wrapper">
@@ -40,5 +41,6 @@ export default function SubPage() {
   </div>
 </div>
 </div>
+</section>
   )
 }
