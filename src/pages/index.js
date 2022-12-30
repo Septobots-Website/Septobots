@@ -15,7 +15,7 @@ export default function Home() {
     <div className="paws"></div>
   </section>
   <MainPage/>
-  <Youtube/>
+  {/* <Youtube/> */}
   <ContactUs/>
   </Layout>
     )
