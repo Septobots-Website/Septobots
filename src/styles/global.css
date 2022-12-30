@@ -237,11 +237,12 @@ nav .fa{
 
 /* contact us section */
 .contactSection{
-    padding: 50px;
+    padding: 20px;
     background-image: linear-gradient(-135deg, #2b1a0f, #543620);
  }
 .contain {
     max-width: 1400px;
+    margin: 0 auto;
     padding: 1em;
     color: black;
 }
