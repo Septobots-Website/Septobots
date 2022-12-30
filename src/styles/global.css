@@ -252,9 +252,14 @@ nav .fa{
     }
 }
   
-.contain h3,
-.contain ul {
+.contain h3 {
     margin: 0;
+    text-decoration: underline;
+    font-size: 2.25rem;
+}
+.contain ul{
+    margin: 0;
+    font-size: 1.5rem;
 }
   
 .contain h3 {
