@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 export default function SubPage() {
@@ -8,11 +9,15 @@ export default function SubPage() {
 <div className="wrapper">
   <div className="contacts">
     <h3>Find Us</h3>
-
     <ul>
       <li>Greenfield High School</li>
       <li>205 S. El Camino Real</li>
       <li>Greenfield, CA 93927</li>
+    </ul>
+    <br/>
+    <h3>Email Us</h3>
+    <ul>
+      <li>ghsseptobots7777@gmail.com</li>
     </ul>
   </div>
 
