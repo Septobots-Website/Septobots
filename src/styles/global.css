@@ -15,7 +15,6 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     background-image: linear-gradient(-135deg, #2b1a0f, #543620);
-    /* color:#026c20; */
     font-family: 'Palanquin Dark', sans-serif;
 }
 @media(max-width: 75em){
@@ -49,7 +48,7 @@ footer{
     font-weight: 300;
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 0.5rem;
     border-top: 1px solid #000;
 }
 footer > p{
@@ -58,7 +57,7 @@ footer > p{
 @media (max-width: 28.75em) {
     footer{
         flex-direction: column;
-        align-items: center;
+        font-size: 90%;;
     }
 }
 
@@ -73,12 +72,11 @@ h1{
 img{
     display: block;
 }
-
 /* navigation */
 
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 1% 3%;
     justify-content: space-between;
     align-items: center;
 }
@@ -92,14 +90,14 @@ nav img{
 .nav-links ul li{
     display: inline-block;
     list-style: none;
-    padding: 8px 12px;
+    padding: 4px 12px;
     position: relative;
 }
 .nav-links ul li a{
     color: #026c20;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 500;
 }
 .nav-links ul li::after{
@@ -282,19 +280,18 @@ nav .fa{
       padding: 0;
     }
 }
-  
-.contain h3 {
-    margin: 0;
-    text-decoration: underline;
-    font-size: 2.25rem;
-}
+
 .contain ul{
     margin: 0;
     font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
 }
   
 .contain h3 {
     margin-bottom: 1rem;
+    text-decoration: underline;
+    font-size: 2.25rem;
 }
   
 input:focus,
@@ -324,11 +321,6 @@ textarea,
     .wrapper > * {
       padding: 2em 2em;
     }
-}
-  
-.contain ul {
-    list-style: none;
-    padding: 0;
 }
   
 .contacts {
@@ -374,7 +366,6 @@ textarea {
 }
 /* the about us portion */
 .about{
-    margin: 0 auto;
     text-align: center;
 
     background-image: url(../components/img/gazebo.jpg);
@@ -382,17 +373,16 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.aboutMain{
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.about{    
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 3rem;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 3rem;
+}
+.aboutMain{
+    background-color: rgba(0, 0, 0, 0.6);
 }
 @media (max-width: 30.625rem) {
     .aboutMain{
@@ -433,8 +423,41 @@ textarea {
 .ourTeam{
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
 }
+.ourGoals{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.goalContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.goal-item{
+    padding: 30px;
+}
+.item{
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 40rem) {
+    .goalContainer{
+        padding: 1rem 1rem;
+    }
+    .goalContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
 /* Sponsors page */
 
  .sponsors{
@@ -456,7 +479,7 @@ textarea {
     
 }
 .sponsorsMain{
-    background-color: white;
+    background-image: linear-gradient(180deg, #fff, rgb(149, 149, 149));
 }
 @media (max-width: 30.625rem) {
     .sponsorsMain{
@@ -477,7 +500,7 @@ textarea {
     padding: 0 50px 50px 50px;
     margin: 0 auto; 
     font-size: 2rem;
-    color: black;
+    color: #026c20;
 }
 .sponsorButton{
     margin-bottom: 4rem;

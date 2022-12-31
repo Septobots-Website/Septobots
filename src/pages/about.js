@@ -8,11 +8,10 @@ export default function about() {
         <section className="about">
           <div className="aboutMain">
             <h2>About The Septobots</h2>
-            <p>The Septobots, FRC team 7777, seeks to innovate each year by approaching challenges in creative ways, 
-              to iterate by consistently working to improve methods and strategies in all aspects of the team, 
-              and to illustrate by having visible and measurable impact on our students as they are inspired by science and technology.
+            <p>At The Septobots (FRC Team 7777), we are dedicated to fostering a culture of innovation, improvement, and inspiration among our students.
+ We believe that through hands-on experiences in science and technology, our students can develop valuable skills and be motivated to make a positive impact in their community. 
               </p>
-              <p>We welcome ALL students in grades 9-12 from Greenfield High School.</p>
+              <p>Our team is open to all students in grades 9-12 at Greenfield High School, and we encourage everyone to join us on this exciting journey of discovery and growth.</p>
           </div>
         </section>
 
@@ -23,25 +22,39 @@ export default function about() {
           </div>
           <div className="missionStatement">
             <h1>Our Mission</h1>
-            <p>The mission of FIRST is to inspire young people to be science and technology leaders and innovators, 
-              by engaging them in exciting mentor-based programs that build science, engineering, 
-              and technology skills, that inspire innovation, 
-              and that foster well-rounded life capabilities including self-confidence, communication, and leadership.</p>
+            <p>Similar to the goals of FIRST, our goal is to inspire the next generation of science and technology leaders and innovators.
+ We believe that by engaging young people in mentor-based programs that focus on building science, engineering, and technology skills, we can empower them to pursue their passions and achieve their full potential. 
+Our programs are designed to foster innovation, self-confidence, communication, and leadership, as well as a well-rounded understanding of the world around us. 
+We are committed to helping young people discover their passion for STEM and make a positive impact in their communities.</p>
           </div>
         </div>
+        </section>
 
-          <div className="ourGoals">
+        <section className="ourGoals">
           <h1>Our Goals</h1>
-          <p>Inspire members to further education and pursue careers in STEM fields 
-          Help members understand what role engineering plays in improving the world and the progression of the human race
-          Encourage members to pass on knowledge fostered on this team to family, friends, and members of the community to help better their lives
-          Provide a team-oriented environment for students to work collaboratively in
-          Teach students how to overcome obstacles and approach problems from different angles to find viable solutions
-          Expose members of the community to STEM opportunities available in a supportive and diverse environment</p>
+            <div className="goalContainer">
+              <div className="goal-item item flex">
+                <p>Encouraging our members to further their education and pursue careers in STEM fields, where they can make a difference and contribute to the advancement of humanity.</p>
+              </div>
+              <div className="goal-item item flex">
+                <p>Helping our members understand the role that engineering and technology play in improving the world and the lives of people.</p>
+              </div>
+              <div className="goal-item item flex">
+                <p>Sharing our knowledge and experiences with others, so that we can inspire and empower others to pursue their own passions and goals.</p>
+              </div>
+              <div className="goal-item item flex">
+                <p>Providing a team-oriented environment where our students can work collaboratively and learn from one another.</p>
+              </div>
+              <div className="goal-item item flex">
+                <p>Teaching our students how to overcome challenges and approach problems from different angles, so that they can develop innovative and effective solutions.</p>
+              </div>
+              <div className="goal-item item flex">
+                <p>Exposing members of our community to the exciting opportunities that STEM fields have to offer, in a supportive and diverse environment.</p>
+              </div>
           </div>
         </section>
 
-        <section className="ourTeam">
+        {/* <section className="ourTeam">
           <div className="ourAwards">
             <p>2019</p><p>Judges Award - Monterey Regional</p>
             <p>2019</p><p>Rookie of the Year - Offseason</p>
@@ -61,7 +74,7 @@ export default function about() {
               <p>2023</p><p> - R.O.B.S.U.E. Act V - The Last Act</p>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="teamPicture">
 
         </section>

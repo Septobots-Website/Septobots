@@ -9,8 +9,11 @@ export default function sponsors() {
       <section className="sponsors">
         <div className="sponsorsMain">
           <h2>Our Sponsors</h2>
-          <p>The Septobots is funded by team membership fees, sponsor funding and in-kind donation. the team must pay registration fees, order cusotm-made parts, marketing materials, pay for travel, and other expenses</p>
-          <p>Our participation in various competitions across the state is dependant on teh amount of funding we receiev each year. we thank our generous sponsors for all they provide</p>
+          <p>As a student-led organization, The Septobots rely on a combination of team membership fees, sponsor funding, and in-kind donations to support our operations and activities. 
+            These funds help us cover a range of expenses, including registration fees, custom-made parts, marketing materials, travel, and other necessary costs.</p>
+          <p>Our ability to participate in various robotics competitions across the state is greatly dependent on the level of funding we receive each year. 
+            We are grateful to our generous sponsors for their support, which enables us to continue our mission of inspiring and empowering the next generation of science and technology leaders and innovators. 
+            Without their help, we would not be able to achieve all that we have.</p>
           <button type="button" className="sponsorButton">Become a Sponsor</button>
         </div>
       </section>
