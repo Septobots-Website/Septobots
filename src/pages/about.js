@@ -16,18 +16,18 @@ export default function about() {
         </section>
 
         <section className="ourPurpose">
-        <div className="mission">
-          <div className="missionPics">
-            <img src={team} alt="team" />
+          <div className="mission">
+            <div className="missionPics">
+              <img src={team} alt="team" />
+            </div>
+            <div className="missionStatement">
+              <h1>Our Mission</h1>
+              <p>Similar to the goals of FIRST, our goal is to inspire the next generation of science and technology leaders and innovators.
+  We believe that by engaging young people in mentor-based programs that focus on building science, engineering, and technology skills, we can empower them to pursue their passions and achieve their full potential. 
+  Our programs are designed to foster innovation, self-confidence, communication, and leadership, as well as a well-rounded understanding of the world around us. 
+  We are committed to helping young people discover their passion for STEM and make a positive impact in their communities.</p>
+            </div>
           </div>
-          <div className="missionStatement">
-            <h1>Our Mission</h1>
-            <p>Similar to the goals of FIRST, our goal is to inspire the next generation of science and technology leaders and innovators.
- We believe that by engaging young people in mentor-based programs that focus on building science, engineering, and technology skills, we can empower them to pursue their passions and achieve their full potential. 
-Our programs are designed to foster innovation, self-confidence, communication, and leadership, as well as a well-rounded understanding of the world around us. 
-We are committed to helping young people discover their passion for STEM and make a positive impact in their communities.</p>
-          </div>
-        </div>
         </section>
 
         <section className="ourGoals">

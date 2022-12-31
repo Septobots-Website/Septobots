@@ -9,7 +9,7 @@ export default function sponsors() {
       <section className="sponsors">
         <div className="sponsorsMain">
           <h2>Our Sponsors</h2>
-          <p>As a student-led organization, The Septobots rely on a combination of team membership fees, sponsor funding, and in-kind donations to support our operations and activities. 
+          <p>As a student-led organization, The Septobots rely on a combination of sponsor funding and in-kind donations to support our operations and activities. 
             These funds help us cover a range of expenses, including registration fees, custom-made parts, marketing materials, travel, and other necessary costs.</p>
           <p>Our ability to participate in various robotics competitions across the state is greatly dependent on the level of funding we receive each year. 
             We are grateful to our generous sponsors for their support, which enables us to continue our mission of inspiring and empowering the next generation of science and technology leaders and innovators. 
