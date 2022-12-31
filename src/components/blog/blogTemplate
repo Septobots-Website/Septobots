@@ -30,6 +30,31 @@ export default function blogTemplate() {
         <div className="blogBody">
             <div className="blogBodyHeader">
                 <img src="#"></img>
+                <h1>Blog Title</h1>    
+            </div>
+
+            <div className="blogImages">
+                <img src="#"></img>
+                <img src="#"></img>
+            </div>
+
+            <div className="blogBodyParagraph">
+                <h3>Header title</h3>
+                <p>Paragraph</p>
+            </div>
+
+            <div className="closingStatement">
+                <h4>Header Title</h4>
+                <p>Paragraph</p>
+                <h5>Thanks to: </h5>
+                <ul>
+                    <li>Our mentors for supporting us</li>
+                    <li>Team 6884 for helping us out throughout the season</li>
+                    <li>Many more friendly students, mentors and volunteers we met from all over the world who helped us or shared our love for FIRST!</li>
+                    <li>GoFundMe Donors!! Its not too late</li>
+                    <li>Our Sponsor Apple</li>
+                </ul>
+
             </div>
         </div>
     </div>

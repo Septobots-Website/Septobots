@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/Layout'
 import placeholder from "../components/img/placeholder.jpg"
+import thumbnail1 from "../components/img/blogImg/blog1/article1.jpg"
 
 export default function blog() {
   return (
@@ -12,29 +14,17 @@ export default function blog() {
           i want to be able to copy and paste the template and have it automatically add a new row to the grid.
 
         */}
+    
     <section className="blogBody">
-    <div clasName="blog-grid">
-        <div className="blog-grid-item">
-            <img src={placeholder} alt="placeholder" />
-            <h1>Blog Title</h1>
-            <h1>Blog Date</h1>
-            <p>Blog Summary</p>
+      <div className="blog-grid">
+        <div className="blog-item item flex">
+              <Link to="/unveilingTheNewWebsite"><img src={thumbnail1} alt="thumbnail1" />
+              <h1>Unveiling the new Website</h1>
+              <h4>December 30th 2022 • 6 minute read</h4>
+              <p>The first blog post created by me, the web designer</p>
+              </Link>
         </div>
-
-        <div className="blog-grid-item">
-            <img src={placeholder} alt="placeholder" />
-            <h1>Blog Title</h1>
-            <h1>Blog Date</h1>
-            <p>Blog Summary</p>
-        </div>
-
-        <div className="blog-grid-item">
-            <img src={placeholder} alt="placeholder" />
-            <h1>Blog Title</h1>
-            <h1>Blog Date</h1>
-            <p>Blog Summary</p>
-        </div>
-    </div>
+      </div>
     </section>
 
     </Layout>

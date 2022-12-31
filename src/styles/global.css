@@ -511,8 +511,47 @@ textarea {
 .sponsorButton{
     margin-bottom: 4rem;
 }
-.logo img{
+.logos img{
     width: 25%;
 }
 
 /* blog page */
+
+.blogBody{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.blogBody img{
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+.blog-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.blog-item{
+    padding: 30px;
+}
+.blog-item .item{
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.2), 
+                0px 2px 2px 0px rgba(0,0,0,0.14), 
+                0px 4px 2px -2px rgba(0,0,0,0.12);
+    border-radius: 10px;
+}
+.blog-item .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 40rem) {
+    .blog-grid{
+        padding: 1rem 1rem;
+    }
+    .blog-grid{
+        grid-template-columns: 1fr;
+    }
+}

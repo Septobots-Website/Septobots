@@ -17,8 +17,8 @@ export default function sponsors() {
           <button type="button" className="sponsorButton">Become a Sponsor</button>
         </div>
       </section>
-      <section className="logos">
-        <div className="logo">
+      <section className="logos-grid">
+        <div className="logos">
           <img src={appleLogo} alt="appleLogo" />
         </div>
       </section>
