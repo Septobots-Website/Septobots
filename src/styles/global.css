@@ -582,7 +582,8 @@ textarea {
 .blogBody h1{
     font-family: 'Cabin Sketch', cursive;
     font-size: 3.5rem;
-    padding-bottom:20px;
+    padding: 0 20px 20px 20px;
+    text-align: left;
 }
 .blogBody p{
     font-family: 'Tillana', cursive;
@@ -636,5 +637,6 @@ textarea {
     }
     .blogBody, .blog .blogBody{ 
         width: 100%;
+        padding: 0 20px 0 20px;
     }
 }
