@@ -1,8 +1,7 @@
 import React from 'react'
-import Navbar from './Navbar'
 import '../styles/global.css'
 
-export default function BlogLayout() {
+export default function recentBlogs() {
   return (
       <section className="recentBlogs">
         <div className="recentBlogGrid">

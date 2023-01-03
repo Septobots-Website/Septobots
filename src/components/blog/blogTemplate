@@ -21,7 +21,7 @@ export default function blogTemplate() {
     <div className="blog">
         <div className="blogHeader">
             <h1>Blog Title</h1>
-            <p>Date * Minute Read</p>
+            <p>Date • Minute Read</p>
         </div>
         <div className="authorSummary">
             <img src='#'></img>

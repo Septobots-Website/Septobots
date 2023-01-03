@@ -23,7 +23,7 @@ export default function unveilingTheNewPage() {
     <div className="blog">
         <div className="blogHeader">
             <h1>Unveiling the Newly Designed Webpage</h1>
-            <p>Ivan Reyes * December 30 2022 * 5 minute read</p>
+            <p>Ivan Reyes • December 30 2022 • 6 minute read</p>
         </div>
         <div className="blogBody">
             <div className="blogBodyHeader">
@@ -70,7 +70,6 @@ export default function unveilingTheNewPage() {
             </div>
         </div>
     </div>
-    <recentBlogs/>
 </Layout>
 
   )
