@@ -17,10 +17,12 @@ export default function sponsors() {
           <button type="button" className="sponsorButton">Become a Sponsor</button>
         </div>
       </section>
-      <section className="logos-grid">
+      <section className="logoContainer">
+      <div className="logos-grid">
         <div className="logos">
           <img src={appleLogo} alt="appleLogo" />
         </div>
+      </div>
       </section>
       <ContactUs/>
     </Layout>

@@ -23,21 +23,12 @@ export default function unveilingTheNewPage() {
     <div className="blog">
         <div className="blogHeader">
             <h1>Unveiling the Newly Designed Webpage</h1>
-            <p>December 30 2022 * 5 minute read</p>
-        </div>
-        <div className="authorSummary">
-            <img src='#'></img>
-            <p>Written by Ivan Reyes: Mentor fo the Robotics Club. Bassist and Software/Web Designer</p>
+            <p>Ivan Reyes * December 30 2022 * 5 minute read</p>
         </div>
         <div className="blogBody">
             <div className="blogBodyHeader">
                 <img src={titleImg}></img>
                 <h1>A New Look for A New Year</h1>    
-            </div>
-
-            <div className="blogImages">
-                <img src="#"></img>
-                <img src="#"></img>
             </div>
 
             <div className="blogBodyParagraph">
@@ -60,7 +51,7 @@ export default function unveilingTheNewPage() {
             </div>
 
             <div className="closingStatement">
-                <h4>A Small Conclusion</h4>
+                <h3>A Small Conclusion</h3>
                 <p>To summarize,
                     i have learned a lot in the past week and it reminds me of when i was in the robotics club.
                     i was put in a situation where i had to learn on my own and i had to learn fast.
@@ -68,7 +59,7 @@ export default function unveilingTheNewPage() {
                     I am very grateful for the opportunity to work on this website and i am very excited to see what the future holds for the robotics club.
                     I do wish this team the best of luck and that they realize that its not about the treasure in the end but the friends we make along the way.
                 </p>
-                <h5>Thanks to: </h5>
+                <h3>Thanks to: </h3>
                 <ul>
                     <li>The Robotics Club and all the opportunities it offered </li>
                     <li>Team 6884 for helping us out throughout the season</li>

@@ -19,8 +19,8 @@ export default function blog() {
       <div className="blog-grid">
         <div className="blog-item item flex">
               <Link to="/unveilingTheNewWebsite"><img src={thumbnail1} alt="thumbnail1" />
-              <h1>Unveiling the new Website</h1>
               <h4>December 30th 2022 • 6 minute read</h4>
+              <h1>Unveiling the new Website</h1>
               <p>The first blog post created by me, the web designer</p>
               </Link>
         </div>
