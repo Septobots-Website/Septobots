@@ -26,19 +26,19 @@ export default function SubPage() {
     <h3>Send us a message</h3>
     <form method="POST" action="https://getform.io/f/cdace237-195c-4846-b3c0-c93683c6f0f3">
       <p>
-        <input type="text" placeholder='First Name'/>
+        <input type="text" placeholder='First Name' name="first_Name"/>
       </p>
       <p>
-        <input type="text" placeholder='Last Name'/>
+        <input type="text" placeholder='Last Name' name="last_Name"/>
       </p>
       <p>
-        <input type="text" placeholder='Phone Number'/>
+        <input type="text" placeholder='Phone Number' name="phone"/>
       </p>
       <p>
-        <input type="text" placeholder='Email Address'/>
+        <input type="text" placeholder='Email Address' name="email"/>
       </p>
       <p className='full-width'>
-        <textarea name="" id="" cols="30" rows="7" placeholder='Write Your Message'></textarea>
+        <textarea name="message" id="" cols="30" rows="7" placeholder='Write Your Message'></textarea>
       </p>
       <p className='full-width'>
         <button>Send</button>
