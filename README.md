@@ -1,7 +1,7 @@
 # _Team 7777 Offical Website_
 # _Deployed at: https://team7777.com/_
 
-#### By _**Ivan Alier-Reyes**_
+#### By _**Septobots**_
 
 #### _The program that allows the website for FRC Team 7777 to exist_
 
@@ -17,7 +17,6 @@ _This project was started on the month of December of 2022. I have decided to pu
 
 ## License
 
-_If you encounter any problems with this program, contact me, Ivan Reyes, through my email: ivan@starphyre-secure.com. Please feel free to reach out as your feedback will help the team._
-
 Copyright (c) _December 2022_ _Ivan Reyes_
+Copyright (c) _December 2023_ _Septobots Team_
 
